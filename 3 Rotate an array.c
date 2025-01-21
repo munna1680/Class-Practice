@@ -18,12 +18,12 @@ int main()
 
     for(i = d; i < n; i++)
     {
-        printf("%d",arr[i]);
+        printf("%d ",arr[i]);
     }
 
     for(i = 0; i < d; i++)
     {
-        printf("%d",arr[i]);
+        printf("%d ",arr[i]);
     }
     printf("\n");
     return 0;
