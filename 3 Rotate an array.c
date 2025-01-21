@@ -16,7 +16,7 @@ int main()
     scanf("%d",&d);
     printf("Rotate array: ");
 
-    for(i = d; i < d; i++)
+    for(i = d; i < n; i++)
     {
         printf("%d",arr[i]);
     }
