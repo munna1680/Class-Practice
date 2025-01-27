@@ -10,8 +10,8 @@ int main()
         scanf("%d",&arr[i]);
     }
 
-    int num;
-    scanf("%d",&num);
+    int element;
+    scanf("%d",&element);
 
     int left = 0;
     int right = n-1;
@@ -20,13 +20,12 @@ int main()
     while(left <= right)
     {
         middle = (left + right)/2;
-        if(arr[middle] == num)
+        if(arr[middle] == element)
         {
-            num = middle;
-            printf("The position is: %d\n", num);
+            printf("YES\n");
             return 0;
-        }  
-        else if (arr[middle] < num)
+        }
+        else if(arr[middle] < element)
         {
             left = middle + 1;
         }
@@ -34,9 +33,6 @@ int main()
         {
             right = middle - 1;
         }
-        
     }
-    
-    printf("%d\n",-1);
-            
+    printf("NO\n");
 }

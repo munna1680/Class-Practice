@@ -10,33 +10,32 @@ int main()
         scanf("%d",&arr[i]);
     }
 
-    int num;
-    scanf("%d",&num);
+    int pos;
+    scanf("%d",&pos);
 
     int left = 0;
     int right = n-1;
-    int middle;
+    int middle, last;
 
     while(left <= right)
     {
         middle = (left + right)/2;
-        if(arr[middle] == num)
+        if(arr[middle] == pos)
         {
-            num = middle;
-            printf("The position is: %d\n", num);
-            return 0;
-        }  
-        else if (arr[middle] < num)
+            last = middle ;
+            left = middle +1;
+        }
+
+        else if(arr[middle] < pos)
         {
             left = middle + 1;
         }
+
         else
         {
-            right = middle - 1;
+            right = middle -1;
         }
-        
     }
-    
-    printf("%d\n",-1);
-            
+    printf("Last position is: %d\n",last);
+    return 0;
 }
