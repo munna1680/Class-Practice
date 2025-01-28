@@ -21,16 +21,16 @@ int main()
         middle = (left + right)/2;
         if(arr[middle] == search)
         {
-            //temp = search;
-            search = value;
-            value = middle;
+            temp = search;
+            search = middle;
             
             //left = middle + 1;
-            printf("%d is present at the position in %d\n",search/*error*/,value);
+            printf("%d is present at the position in %d\n",temp/*error*/,middle);
             count++;
+            break;
         }
 
-        else if(arr[middle] < value)
+        else if(arr[middle] < search)
         {
             left = middle + 1;
         }
@@ -39,10 +39,12 @@ int main()
         {
             right = middle -1;
         }
+        
     }
-    if(count == 0)
-    {
-        printf("%d is not found\n");
-    }
-    printf("%d is found %d times in the array\n",search,count);
+    if(count == 0 )
+        {
+            printf("%d is not found\n");
+        }
+    printf("%d is found %d times in the array\n",temp,count);
+    
 }

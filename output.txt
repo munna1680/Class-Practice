@@ -1,2 +1,2 @@
-6422280 is present at the position in 2
-6422280 is found 1 times in the array
+4 is present at the position in 3
+4 is found 1 times in the array
