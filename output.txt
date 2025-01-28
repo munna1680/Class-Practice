@@ -1,2 +1,2 @@
-8 is present at the position at 2
-8 is present 1 times in the array
+6422280 is present at the position in 2
+6422280 is found 1 times in the array
