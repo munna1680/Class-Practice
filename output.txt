@@ -1,1 +1,2 @@
-First position is: 4
+8 is present at the position at 2
+8 is present 1 times in the array
