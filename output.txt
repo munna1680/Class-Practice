@@ -1,1 +1,2 @@
-Last position is: 2
+Enter a positive integer: 5
+Factorial of 5 = 120
