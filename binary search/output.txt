@@ -1,2 +1,0 @@
-Enter a positive integer: 
-sum = 6 
