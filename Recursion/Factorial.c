@@ -1,5 +1,4 @@
 #include<stdio.h>
-
 long long int sum(int n);
 
 int main() 

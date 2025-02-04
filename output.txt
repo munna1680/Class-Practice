@@ -1,2 +1,2 @@
-Enter a positive integer: 5
+Enter a positive integer: 
 Factorial of 5 = 120
