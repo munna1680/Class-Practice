@@ -1,2 +1,2 @@
-2 is present at the position at 2
-2 is present 1 times in the array
+Enter a positive integer: 
+sum = 6 
