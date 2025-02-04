@@ -1,2 +1,2 @@
-4 is present at the position in 3
-4 is found 1 times in the array
+2 is present at the position at 2
+2 is present 1 times in the array

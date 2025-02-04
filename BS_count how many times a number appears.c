@@ -23,8 +23,7 @@ int main()
         {
             temp = search;
             search = middle;
-            
-            //left = middle + 1;
+            right = middle -1;
             printf("%d is present at the position in %d\n",temp/*error*/,middle);
             count++;
             break;
