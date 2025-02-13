@@ -27,16 +27,18 @@ int main()
             n =n - arr[i];
             ar[i]--;
             count++;
+            
         }
     }
+    printf("%d",count);
     
     if (n == 0) 
     {
-        printf("%d\n",count);
+        //printf("%d\n",count);
     } 
     else 
     {
-        printf("-1\n");
+        //printf("-1\n");
     }
     return 0;
 }
